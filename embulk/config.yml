@@ -1,0 +1,16 @@
+in:
+  type: mysql
+  host: mysql
+  user: root
+  password: root
+  database: testdb
+  table: products
+  select: "*"
+out:
+  type: postgresql
+  host: postgres
+  user: root
+  password: root
+  database: testdb
+  table: products
+  mode: truncate_insert
